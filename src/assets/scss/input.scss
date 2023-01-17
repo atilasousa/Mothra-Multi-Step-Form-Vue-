@@ -1,0 +1,12 @@
+.base-input {
+  width: 100%;
+  padding: 0.6rem 0.5rem;
+  border-radius: 0.4rem;
+  border: 0.5px solid #8a8a8a;
+  outline: none;
+  background-color: white;
+  color: #444444;
+  margin-bottom: 1.5rem;
+
+  @include inputFocus("#0077b6");
+}
